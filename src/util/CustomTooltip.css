@@ -1,0 +1,32 @@
+/* CustomTooltip.css */
+.custom-tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-tooltip-content {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 120%;
+    left: 50%;
+    margin-left: -60px; /* Use half of the width value */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.custom-tooltip:hover .custom-tooltip-content {
+    visibility: visible;
+    opacity: 1;
+}
+
+.delete-button-tooltip {
+    display: inline;
+    justify-content: flex-end; /* Aligns DeleteButton to the right */
+}

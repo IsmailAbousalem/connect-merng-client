@@ -1,0 +1,17 @@
+.page-title{
+    display: block !important;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.form-container{
+    width: 600px;
+    margin: auto;
+}
+
+.ui.purple.button:focus, 
+.ui.purple.buttons .buttons:focus{
+    background-color: #a333c8;
+}
+
