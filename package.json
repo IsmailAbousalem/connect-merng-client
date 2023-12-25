@@ -44,5 +44,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "https://shrouded-temple-05415-d7cc72582c90.herokuapp.com/"
 }

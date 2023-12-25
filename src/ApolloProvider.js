@@ -9,7 +9,7 @@ import { setContext } from '@apollo/client/link/context';
 
 
 const httpLink = createHttpLink({
-    uri: 'http://localhost:5000'
+    uri: 'https://shrouded-temple-05415-d7cc72582c90.herokuapp.com/'
 });
 
 const authLink = setContext(() => {
